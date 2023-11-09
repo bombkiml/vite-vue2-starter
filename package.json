@@ -1,0 +1,35 @@
+{
+  "name": "vue2-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "axios-retry": "^3.8.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap4-toggle": "^3.5.0",
+    "floating-vue": "^1.0.0-beta.19",
+    "jquery": "^3.4.1",
+    "mdbootstrap": "^4.8.10",
+    "popper.js": "^1.15.0",
+    "register-service-worker": "^1.7.2",
+    "vue": "^2.7.15",
+    "vue-awesome": "^4.5.0",
+    "vue-cookies": "^1.8.3",
+    "vue-moment": "^4.1.0",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.0.3",
+    "vue-session": "^1.0.0",
+    "vue-template-compiler": "^2.7.14",
+    "vuejs-noty": "^0.1.4",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "sass": "~1.64.2",
+    "vite": "^2.0.5",
+    "vite-plugin-vue2": "^2.0.1"
+  }
+}
