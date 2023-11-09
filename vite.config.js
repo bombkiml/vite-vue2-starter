@@ -24,7 +24,6 @@ export default ({ mode }) => {
         '^/vipclass/.*': {
           target: process.env.VITE_APP_THREE_API,
           changeOrigin: true,
-          //headers: { Authentication: 'Beerer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAyNCwiZmlyc3RuYW1lIjoi4LiT4Lix4LiS4Lie4Lix4LiS4LiZ4LmMIiwic3VybmFtZSI6IuC4iuC4tOC4meC4nuC4oyIsImlhdCI6MTY5OTQzMTAxNCwiZXhwIjoxNjk5NTE3NDE0fQ.Zc2crP9E0vGkmT9gNKwoZ2eg70wc8IxQAZevPuJyBa8' },
           secure: false,
           ws: true,
           rewrite: path => path.replace(/^\/vipclass/, ''),
