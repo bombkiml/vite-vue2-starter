@@ -18,7 +18,7 @@ axiosRetry(axios, {
     return error;
   },
 });
-window.$axios = axios;
+Vue.prototype.$axios = axios;
 
 // vue cookie
 import VueCookies from 'vue-cookies';
