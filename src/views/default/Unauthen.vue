@@ -5,7 +5,7 @@
         <div class="inner-content">
           <h1 class="heading">401</h1>
           <p class="subheading">
-            Unauthentication<br/>Please login for unlock contents.
+            Unauthentication<br />Please login for unlock contents.
           </p>
         </div>
       </div>
@@ -65,8 +65,8 @@
               r="65"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity: 1" />
-              <stop offset="50%" style="stop-color:#EDEDED; stop-opacity: 0.5">
+              <stop offset="0%" style="stop-color: #ffffff; stop-opacity: 1" />
+              <stop offset="50%" style="stop-color: #ededed; stop-opacity: 0.5">
                 <animate
                   attributeName="stop-opacity"
                   values="0.0; 0.5; 0.0"
@@ -74,7 +74,10 @@
                   repeatCount="indefinite"
                 />
               </stop>
-              <stop offset="100%" style="stop-color:#EDEDED; stop-opacity: 0" />
+              <stop
+                offset="100%"
+                style="stop-color: #ededed; stop-opacity: 0"
+              />
             </radialGradient>
             <circle
               class="lamp-light__glow"

@@ -5,7 +5,8 @@
         <div class="inner-content">
           <h1 class="heading">404</h1>
           <p class="subheading">
-            Not Found.<br/>Looks like the page you were looking for is no longer here.
+            Not Found.<br />Looks like the page you were looking for is no
+            longer here.
           </p>
         </div>
       </div>
@@ -65,8 +66,8 @@
               r="65"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity: 1" />
-              <stop offset="50%" style="stop-color:#EDEDED; stop-opacity: 0.5">
+              <stop offset="0%" style="stop-color: #ffffff; stop-opacity: 1" />
+              <stop offset="50%" style="stop-color: #ededed; stop-opacity: 0.5">
                 <animate
                   attributeName="stop-opacity"
                   values="0.0; 0.5; 0.0"
@@ -74,7 +75,10 @@
                   repeatCount="indefinite"
                 />
               </stop>
-              <stop offset="100%" style="stop-color:#EDEDED; stop-opacity: 0" />
+              <stop
+                offset="100%"
+                style="stop-color: #ededed; stop-opacity: 0"
+              />
             </radialGradient>
             <circle
               class="lamp-light__glow"

@@ -1,6 +1,6 @@
 <template>
   <div class="home col-md-10 col-12 content-box mx-auto">
-    <nav>
+    <nav class="h4">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
@@ -14,6 +14,9 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
   name: "home",
+  props: {
+    test: String,
+  },
   components: {
     HelloWorld,
   },
@@ -42,7 +45,6 @@ export default {
   },
   methods: {
     api() {
-
       /* $axios.get("/vipclass/spclty").then((e) => {
         console.log(e);
       }); */
@@ -55,7 +57,6 @@ export default {
       .then(e => {
         console.log(e);
       }) */
-
     },
   },
 };
